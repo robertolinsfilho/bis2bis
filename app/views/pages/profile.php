@@ -6,14 +6,14 @@
 
       <form action="" method="POST">
           <h1 class="titulo">Editar Usuário</h1>
-        <label for="">Username</label>
+        <label for="">Nome</label>
         <input type="text" name="username" placeholder="Username" value="<?php echo $data['username'] ?>">
 
         <label for="">Email</label>
         <input type="email" disabled placeholder="Email" value="email@gmail.com"
           value="<?php echo $data['email'] ?>">
 
-        <label for="">Password</label>
+        <label for="">Senha</label>
         <input type="password" name="passwd" placeholder="*********">
 
         <label for="">Avatar</label>

@@ -11,7 +11,7 @@
         <label for="">Texto</label>
         <input type="text"  name="texto" placeholder="Texto da noticia" value="<?php echo $noticias['texto']; ?>">
 
-        <label for="">Image</label>
+        <label for="">Imagem</label>
         <input type="url" name="image" placeholder="https://product.png" value="<?php echo $noticias['image']; ?>">
 
         <input type="hidden" name="id" value="<?php echo $noticias['id']; ?>">
